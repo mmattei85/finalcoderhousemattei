@@ -1,0 +1,55 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <title>M A R H A B A</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="..\estilos\estilos1.css" />
+</head>
+
+<body>
+  <div class="row">
+    <div><img src="../multimedia/fondo1.jpg" alt="imagen de intro" width="100%">        
+    </div>
+
+   <table class="barramenu" align="right" border="1" cellpadding="5" cellspacing=" 2">
+        <tr class="tdmenu" align="center">
+            <td><a href="..\index.html">Inicio</a></td>
+            <td><a href="..\paginas\sobremi.html">sobre mi</a></td>
+            <td><a href="..\paginas\recetas.html">recetas</a></td>
+            <td><a href="..\paginas\descargas.html">descargas</a></td>
+            <td><a href="..\paginas\contacto.html">contacto</a></td>
+        </tr>
+    </table>
+
+    <br />
+
+    <p class="parrafo1">Si queres contactarte con nosotros, completa este formulario:
+
+
+     <form action="contacto.html" method="post" class="formulario">
+        <section class="parrafo1">Motivo de contacto</section>
+            <select name="motivo">
+                <option value="agregarrecetas">Agregar recetas a la pagina</option>
+                <option value="sugerencias">Sugerencias</option>
+                <option value="pedidos">Pedidos</option>
+            </select>
+        <br>
+        <br>
+        <section class="parrafo1">Nombre Completo  <input type="text" name="nombre" placeholder="nombre completo" /> </section><br>  
+        <section class="parrafo1">Correo Electronico  <input type="email" email="correo electronico" placeholder="correo electronico" /> </section><br>
+
+         <section class="parrafo1">Mensaje<br><textarea rows="4" cols="25">ingrese texto aqui</textarea> </section>
+        <input type="submit" value="enviar formulario" /> <input type="reset" value="limpiar formulario" />
+     </section>
+    </form>
+
+<footer class="pruebaPosicion2">Pagina by: Mariano A. Mattei<img src="../multimedia/logomamc.png" width="20px" height="20px"></footer></body>
+
+</html>

@@ -1,0 +1,162 @@
+body {
+  background: linear-gradient(to right, #BD9184, #935947, #48352F);
+
+}
+
+.barramenu {
+  width: 100%;
+  border-width: 3px;
+  border-color: black;
+  border-style: groove;
+  border: 2px 2px 2px 2px;
+  } 
+
+body table tr td {
+  background: radial-gradient(red, orange);
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color:#C4FCF1;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.titulo1 {
+  color: yellow;
+  text-align:center;
+  text-transform:uppercase;
+  font-style: italic;
+  font-family: 'Potta One', cursive;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.TablaRecetas {
+    letter-spacing:3px
+    font-size: large;
+    font-style: italic;}
+
+}
+.encabezado {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: justify;
+  align-content: stretch;
+  object-fit: fill;
+}
+.pruebaPosicion2 {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+  color: yellow;
+    width: 200px;
+    height: 30px;
+    background-color: none;
+    position: fixed;
+    bottom:10;
+    right:0;
+}
+
+.parrafo1 {
+  color: black;
+  font-size: 14px;
+  font-style: italic;
+  font-family: monospace;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px
+}
+.GridRecetas {
+  display: grid;
+  grid-template-columns: 95% 5%;
+  grid-template-rows: 30px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.GridRecetas2 {
+  display: grid;
+    grid-template-columns: 95% 5%;
+  grid-template-rows: 100%;
+  text-align: left;
+justify-content: space-around;
+}
+
+.GridRecetasFotos {
+  display: grid;
+  grid-template-columns: 200px 100px 100px 300px 300px;
+  grid-template-rows: 300px;
+  border: solid 1px;
+  border-color: yellow;
+  grid-template-rows: minmax(100px, auto);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px;
+  justify-content: space-around;  
+}
+
+.grid2 {
+  display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+  grid-template-rows: 200px;
+  text-align: center;
+justify-content: space-around;
+}
+
+.gridfoto1 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 100px;
+grid-column-gap: 10px;
+font-size: 14px;
+  font-style: italic;
+  font-family: monospace;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.griddescargas {
+  display: grid;
+    grid-template-columns: 200px 100px 100px 100px 100px 100px;
+  grid-template-rows: 200px;
+  text-align: center;
+justify-content: space-around;
+
+}
+
+#musica {
+x  width: 250px;
+  height: 300px;
+}
+
+.AreaCarrousel {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.imagenreceta1 {
+  width: 200px;
+  height: 200px;
+}
+
+.rotacion1 {
+  transform: rotate(-4deg); }
+
+.rotacion2 {
+  transform: rotate(4deg); }
+
+.tabla {
+  background-color: none;
+}

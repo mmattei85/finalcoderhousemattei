@@ -1,0 +1,17 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "sass para entrega final de coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/pruebafinal.scss css/pruebafinal.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mariano a. mattei",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
